@@ -23,9 +23,9 @@
 		34456A201B98ED0A008A16A2 /* SpecBuildHelper.app in Resources */ = {isa = PBXBuildFile; fileRef = 344569F91B98EC04008A16A2 /* SpecBuildHelper.app */; };
 		34456A241B98F3B4008A16A2 /* NSBundle+BuildHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 34456A231B98F3B4008A16A2 /* NSBundle+BuildHelper.m */; };
 		34456A251B98FDD0008A16A2 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE25D65D1A38FFA9008A1920 /* Interface.storyboard */; };
-		34AB31BA1BC8B32E0039F450 /* WKImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 34AB31B81BC8B32E0039F450 /* WKImage.h */; };
+		34AB31BA1BC8B32E0039F450 /* WKImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 34AB31B81BC8B32E0039F450 /* WKImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34AB31BB1BC8B32E0039F450 /* WKImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AB31B91BC8B32E0039F450 /* WKImage.m */; };
-		34AB31BE1BC8B70A0039F450 /* WKAlertAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 34AB31BC1BC8B70A0039F450 /* WKAlertAction.h */; };
+		34AB31BE1BC8B70A0039F450 /* WKAlertAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 34AB31BC1BC8B70A0039F450 /* WKAlertAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34AB31BF1BC8B70A0039F450 /* WKAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AB31BD1BC8B70A0039F450 /* WKAlertAction.m */; };
 		AE03A0391A391C5900AD4964 /* corgi.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE03A0381A391C5900AD4964 /* corgi.jpeg */; };
 		AE0FDC801A6ECB71006C781D /* CustomCategoryNotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0FDC7F1A6ECB71006C781D /* CustomCategoryNotificationController.m */; };
@@ -658,9 +658,7 @@
 				B83C320C1A4CD9BF0021F1A4 /* WKInterfaceDate.h in Headers */,
 				B83C32041A4CD9BF0021F1A4 /* PCKMessageCapturer.h in Headers */,
 				B83C322B1A4CD9BF0021F1A4 /* WKUserNotificationInterfaceController+Spec.h in Headers */,
-				34AB31BA1BC8B32E0039F450 /* WKImage.h in Headers */,
 				B83AC22D1A5E191C00A35BD6 /* PCKWKInterfaceControllerProvider.h in Headers */,
-				34AB31BE1BC8B70A0039F450 /* WKAlertAction.h in Headers */,
 				B83C32151A4CD9BF0021F1A4 /* WKInterfaceLabel.h in Headers */,
 				B83C32281A4CD9BF0021F1A4 /* WKInterfaceTimer.h in Headers */,
 				B83C32241A4CD9BF0021F1A4 /* WKInterfaceSwitch+Spec.h in Headers */,
@@ -671,6 +669,8 @@
 				B83C322A1A4CD9BF0021F1A4 /* WKInterfaceTimer+Spec.h in Headers */,
 				B83C32211A4CD9BF0021F1A4 /* WKInterfaceSlider+Spec.h in Headers */,
 				B83C321F1A4CD9BF0021F1A4 /* WKInterfaceSlider.h in Headers */,
+				34AB31BA1BC8B32E0039F450 /* WKImage.h in Headers */,
+				34AB31BE1BC8B70A0039F450 /* WKAlertAction.h in Headers */,
 				B83C32171A4CD9BF0021F1A4 /* WKInterfaceLabel+Spec.h in Headers */,
 				2681A5B21AE0906600B0B753 /* WKInterfaceDevice.h in Headers */,
 				267B25B21AD86BDB00440CD2 /* NSInvocation+InvocationMatching.h in Headers */,
@@ -764,6 +764,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -824,7 +825,7 @@
 		3431FCBD1BE286C600740FFB /* Cedar-tvOS SpecBundle.bundle */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = "Cedar-tvOS SpecBundle.bundle";
+			path = "Cedar-tvOS SpecBundle.xctest";
 			remoteRef = 3431FCBC1BE286C600740FFB /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
